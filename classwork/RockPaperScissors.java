@@ -1,5 +1,3 @@
-package string.class_problems;
-
 import java.util.Random;
 import java.util.Scanner;
 

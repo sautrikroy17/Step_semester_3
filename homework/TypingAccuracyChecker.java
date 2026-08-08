@@ -1,5 +1,3 @@
-package string.assigment_problems;
-
 public class TypingAccuracyChecker {
     public static void checkTypingAccuracy(String original, String typed) {
         if (original == null || typed == null) {

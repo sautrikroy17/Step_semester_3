@@ -1,5 +1,3 @@
-package string.class_problems;
-
 public class ReverseCustomerName {
     public static String reverseCustomerName(String customerName) {
         if (customerName == null) {

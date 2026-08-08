@@ -1,5 +1,3 @@
-package string.assigment_problems;
-
 public class TrafficSignalStreak {
     public static void findLongestStreak(String signalLog) {
         if (signalLog == null || signalLog.isEmpty()) {

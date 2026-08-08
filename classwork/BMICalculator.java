@@ -1,5 +1,3 @@
-package string.class_problems;
-
 public class BMICalculator {
     public static String getBmiStatus(double bmi) {
         if (bmi < 18.5) {

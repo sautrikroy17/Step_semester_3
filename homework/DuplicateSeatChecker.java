@@ -1,5 +1,3 @@
-package string.assigment_problems;
-
 public class DuplicateSeatChecker {
     public static void checkDuplicateSeats(int[] seatNumbers) {
         if (seatNumbers == null || seatNumbers.length == 0) {

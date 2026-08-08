@@ -1,5 +1,3 @@
-package string.assigment_problems;
-
 public class MovieReviewProfiler {
     public static void classifyWordLengths(String review) {
         if (review == null || review.trim().isEmpty()) {

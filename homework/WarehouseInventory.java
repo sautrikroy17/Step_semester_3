@@ -1,5 +1,3 @@
-package string.assigment_problems;
-
 public class WarehouseInventory {
     public static void analyzeInventory(int[] sectionA, int[] sectionB) {
         if (sectionA == null || sectionB == null) {

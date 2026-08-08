@@ -1,5 +1,3 @@
-package string.class_problems;
-
 public class PalindromeChecker {
     public static boolean isPalindromeIterative(String text) {
         if (text == null) {

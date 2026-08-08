@@ -1,5 +1,3 @@
-package string.class_problems;
-
 public class FirstNonRepeatingChar {
     public static char findFirstNonRepeatingChar(String text) {
         if (text == null || text.isEmpty()) {

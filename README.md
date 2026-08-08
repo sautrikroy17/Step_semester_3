@@ -1,19 +1,17 @@
 # Session 1: Strings & Fundamental Algorithms
 
-Topic: `string`
+## 📂 Structure
+- `classwork/`: In-class practice problems (5 programs)
+- `homework/`: Take-home assignment problems (5 programs)
 
-## 📂 Package Structure
-- `src/main/java/string/class_problems/`: In-class practice problems (5 programs)
-- `src/main/java/string/assigment_problems/`: Take-home assignment problems (5 programs)
-
-### Class Problems
+### Classwork (Practice)
 1. **BMICalculator.java**
 2. **FirstNonRepeatingChar.java**
 3. **PalindromeChecker.java**
 4. **ReverseCustomerName.java**
 5. **RockPaperScissors.java**
 
-### Assignment Problems
+### Homework (Assignment)
 1. **DuplicateSeatChecker.java**
 2. **MovieReviewProfiler.java**
 3. **TrafficSignalStreak.java**
