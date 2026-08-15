@@ -1,5 +1,3 @@
-package string_methods.class_problems;
-
 public class CSVStudentRecordParser {
     public static void parseStudentRecord(String csvLine) {
         if (csvLine == null) {

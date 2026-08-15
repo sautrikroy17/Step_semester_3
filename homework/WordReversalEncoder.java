@@ -1,5 +1,3 @@
-package string_methods.assigment_problems;
-
 public class WordReversalEncoder {
     public static String reverseEachWord(String sentence) {
         if (sentence == null) {

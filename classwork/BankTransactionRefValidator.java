@@ -1,5 +1,3 @@
-package string_methods.class_problems;
-
 public class BankTransactionRefValidator {
     public static String normalizeReference(String raw) {
         if (raw == null) {

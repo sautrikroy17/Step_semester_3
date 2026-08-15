@@ -1,5 +1,3 @@
-package string_methods.class_problems;
-
 public class VowelConsonantCounter {
     public static void countVowelsAndConsonants(String text) {
         if (text == null) {

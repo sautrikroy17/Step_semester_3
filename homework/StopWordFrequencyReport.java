@@ -1,5 +1,3 @@
-package string_methods.assigment_problems;
-
 import java.util.*;
 
 public class StopWordFrequencyReport {

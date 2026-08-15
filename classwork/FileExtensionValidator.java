@@ -1,5 +1,3 @@
-package string_methods.class_problems;
-
 public class FileExtensionValidator {
     public static String validateFileExtension(String filename) {
         if (filename == null || !filename.contains(".")) {

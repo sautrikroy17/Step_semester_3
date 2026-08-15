@@ -1,5 +1,3 @@
-package string_methods.assigment_problems;
-
 public class LibraryIsbnValidator {
     public static String normalizeCode(String raw) {
         if (raw == null) {

@@ -1,5 +1,3 @@
-package string_methods.assigment_problems;
-
 public class AtmPinValidator {
     public static void checkPinLength(String pin) {
         if (pin == null || pin.length() != 4) {

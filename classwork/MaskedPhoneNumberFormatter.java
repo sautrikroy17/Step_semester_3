@@ -1,5 +1,3 @@
-package string_methods.class_problems;
-
 public class MaskedPhoneNumberFormatter {
     public static String maskPhoneNumber(String phone) {
         if (phone == null) {

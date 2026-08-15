@@ -1,5 +1,3 @@
-package string_methods.assigment_problems;
-
 public class ProductInventoryParser {
     public static void parseInventoryRecord(String csvLine) {
         if (csvLine == null) {
