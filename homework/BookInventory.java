@@ -1,5 +1,3 @@
-package oop_basics.assigment_problems;
-
 public class BookInventory {
     private String title;
     private String author;

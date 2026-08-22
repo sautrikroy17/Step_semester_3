@@ -1,5 +1,3 @@
-package oop_basics.class_problems;
-
 public class IdCard {
     String name;
     int booksIssued;

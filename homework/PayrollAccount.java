@@ -1,5 +1,3 @@
-package oop_basics.assigment_problems;
-
 public class PayrollAccount {
     private double basicSalary;
     private double bonus;

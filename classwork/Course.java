@@ -1,5 +1,3 @@
-package oop_basics.class_problems;
-
 public class Course {
     private String code;
     private String title;

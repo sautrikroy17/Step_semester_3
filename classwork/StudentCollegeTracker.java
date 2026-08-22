@@ -1,5 +1,3 @@
-package oop_basics.class_problems;
-
 public class StudentCollegeTracker {
     private String name;
     private double attendance;

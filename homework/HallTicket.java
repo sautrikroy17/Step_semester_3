@@ -1,5 +1,3 @@
-package oop_basics.assigment_problems;
-
 public class HallTicket {
     String studentName;
     int seatNumber;

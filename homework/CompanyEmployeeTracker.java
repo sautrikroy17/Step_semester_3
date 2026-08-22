@@ -1,5 +1,3 @@
-package oop_basics.assigment_problems;
-
 public class CompanyEmployeeTracker {
     private String empName;
     private double salary;

@@ -1,5 +1,3 @@
-package oop_basics.assigment_problems;
-
 public class EmployeeProfile {
     private String empId;
     private String empName;
