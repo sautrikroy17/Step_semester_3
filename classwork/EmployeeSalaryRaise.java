@@ -1,5 +1,3 @@
-package constructors.class_problems;
-
 public class EmployeeSalaryRaise {
     private String empId;
     private double salary;

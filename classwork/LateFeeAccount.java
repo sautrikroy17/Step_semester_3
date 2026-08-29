@@ -1,5 +1,3 @@
-package constructors.class_problems;
-
 public class LateFeeAccount {
     private String regNo;
     private double totalFee;

@@ -1,5 +1,3 @@
-package constructors.assigment_problems;
-
 class Payment {
     public double pay(double amount) {
         System.out.printf("Paid (cash): Rs %.1f%n", amount);

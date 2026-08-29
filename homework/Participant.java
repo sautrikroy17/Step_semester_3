@@ -1,5 +1,3 @@
-package constructors.assigment_problems;
-
 public class Participant {
     private String name;
     private String teamName;

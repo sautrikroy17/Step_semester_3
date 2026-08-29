@@ -1,5 +1,3 @@
-package constructors.assigment_problems;
-
 public class CanteenItem {
     private String itemName;
     private int stock;

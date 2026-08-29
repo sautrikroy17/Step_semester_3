@@ -1,5 +1,3 @@
-package constructors.class_problems;
-
 public class SrmStudentBatch {
     private static String collegeName;
     private static String academicYear;

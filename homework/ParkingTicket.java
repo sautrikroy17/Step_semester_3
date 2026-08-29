@@ -1,5 +1,3 @@
-package constructors.assigment_problems;
-
 public class ParkingTicket {
     private String vehicleNo;
     private double ratePerMinute;

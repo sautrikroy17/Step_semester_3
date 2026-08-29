@@ -1,5 +1,3 @@
-package constructors.assigment_problems;
-
 public class MembershipCard {
     private static String libraryName;
     private static String validUntil;

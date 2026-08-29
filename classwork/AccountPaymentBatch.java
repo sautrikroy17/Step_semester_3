@@ -1,5 +1,3 @@
-package constructors.class_problems;
-
 class FeeAccount {
     public void processAccountPayment(double amount) {
         System.out.println("Paid in one go (day-scholar account)");
