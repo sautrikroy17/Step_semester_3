@@ -1,5 +1,3 @@
-package encapsulation.class_problems;
-
 import java.util.Arrays;
 
 class BookingReceipt {

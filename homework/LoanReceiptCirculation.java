@@ -1,5 +1,3 @@
-package encapsulation.assigment_problems;
-
 import java.util.Arrays;
 
 class LoanReceipt {

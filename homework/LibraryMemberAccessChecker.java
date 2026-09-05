@@ -1,5 +1,3 @@
-package encapsulation.assigment_problems;
-
 public class LibraryMemberAccessChecker {
     private String membershipPin;
     String branchCode;

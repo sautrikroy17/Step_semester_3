@@ -1,5 +1,3 @@
-package encapsulation.class_problems;
-
 public class MovieTicketAccessChecker {
     private String seatNumber;
     int screenId;

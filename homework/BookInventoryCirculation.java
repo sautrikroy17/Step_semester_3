@@ -1,5 +1,3 @@
-package encapsulation.assigment_problems;
-
 public class BookInventoryCirculation {
     private int copiesTotal;
     private int copiesAvailable;

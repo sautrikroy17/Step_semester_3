@@ -1,5 +1,3 @@
-package encapsulation.class_problems;
-
 public class MovieBookingProfile {
     private String name;
     private boolean confirmed;

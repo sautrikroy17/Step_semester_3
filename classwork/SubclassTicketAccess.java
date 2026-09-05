@@ -1,5 +1,3 @@
-package encapsulation.class_problems;
-
 public class SubclassTicketAccess {
     public static String classifyAccess(String fieldModifier, String accessorContext) {
         if ("SAME_CLASS".equals(accessorContext)) {

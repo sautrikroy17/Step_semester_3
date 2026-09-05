@@ -1,5 +1,3 @@
-package encapsulation.assigment_problems;
-
 public class LibraryMemberProfile {
     private String membershipId;
     private String name;

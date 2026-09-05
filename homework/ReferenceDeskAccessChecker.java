@@ -1,5 +1,3 @@
-package encapsulation.assigment_problems;
-
 public class ReferenceDeskAccessChecker {
     public static String classifyAccess(String fieldModifier, String accessorContext) {
         if ("SAME_CLASS".equals(accessorContext)) {

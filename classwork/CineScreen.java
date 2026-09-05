@@ -1,5 +1,3 @@
-package encapsulation.class_problems;
-
 public class CineScreen {
     private int seatsTotal;
     private int seatsAvailable;
