@@ -1,5 +1,3 @@
-package inheritance.class_problems;
-
 import java.util.Arrays;
 
 class FineLibraryMember {

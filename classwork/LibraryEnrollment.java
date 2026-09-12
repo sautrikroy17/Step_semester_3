@@ -1,5 +1,3 @@
-package inheritance.class_problems;
-
 class LibraryMember {
     private String memberId;
     private int borrowLimit;

@@ -1,5 +1,3 @@
-package inheritance.assigment_problems;
-
 import java.util.Arrays;
 
 class FeeGymMember {

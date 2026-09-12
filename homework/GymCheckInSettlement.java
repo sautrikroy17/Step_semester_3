@@ -1,5 +1,3 @@
-package inheritance.assigment_problems;
-
 class SettlementGymMember {
     private static int membersEnrolled = 0;
     private static int counter = 2000;

@@ -1,5 +1,3 @@
-package inheritance.assigment_problems;
-
 class AnnounceGymMember {
     private String memberId;
     private int sessionsAttended;

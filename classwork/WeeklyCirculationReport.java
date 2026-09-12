@@ -1,5 +1,3 @@
-package inheritance.class_problems;
-
 class ReportLibraryMember {
     private String memberId;
     private int booksBorrowed;

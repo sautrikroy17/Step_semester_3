@@ -1,19 +1,17 @@
 # Session 6: OOP Inheritance & Polymorphism
 
-Topic: `inheritance`
+## 📂 Structure
+- `classwork/`: In-class practice problems (5 programs)
+- `homework/`: Take-home assignment problems (5 programs)
 
-## 📂 Package Structure
-- `src/main/java/inheritance/class_problems/`: In-class practice problems (5 programs)
-- `src/main/java/inheritance/assigment_problems/`: Take-home assignment problems (5 programs)
-
-### Class Problems
+### Classwork (Practice)
 1. **LibraryCirculationAudit.java**
 2. **LibraryEnrollment.java**
 3. **LibraryHierarchy.java**
 4. **StudentFineLedger.java**
 5. **WeeklyCirculationReport.java**
 
-### Assignment Problems
+### Homework (Assignment)
 1. **AttendanceAnnouncer.java**
 2. **GymCheckInSettlement.java**
 3. **GymLateFeeLedger.java**

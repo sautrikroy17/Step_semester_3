@@ -1,5 +1,3 @@
-package inheritance.assigment_problems;
-
 class GymMember {
     private String memberId;
     private int monthlyFee;

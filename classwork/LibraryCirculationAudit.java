@@ -1,5 +1,3 @@
-package inheritance.class_problems;
-
 class AuditLibraryMember {
     private static int membersEnrolled = 0;
     private static int counter = 100;
