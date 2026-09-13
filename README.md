@@ -1,4 +1,21 @@
-# STEP Semester 3 - Base Project Skeleton
+# Session 1: Strings & Fundamental Algorithms
 
-Base project skeleton for Step Semester 3 coursework.
-Individual session feature branches are created from this branch.
+Topic: `string`
+
+## 📂 Package Structure
+- `src/main/java/string/class_problems/`: In-class practice problems (5 programs)
+- `src/main/java/string/assigment_problems/`: Take-home assignment problems (5 programs)
+
+### Class Problems
+1. **BMICalculator.java**
+2. **FirstNonRepeatingChar.java**
+3. **PalindromeChecker.java**
+4. **ReverseCustomerName.java**
+5. **RockPaperScissors.java**
+
+### Assignment Problems
+1. **DuplicateSeatChecker.java**
+2. **MovieReviewProfiler.java**
+3. **TrafficSignalStreak.java**
+4. **TypingAccuracyChecker.java**
+5. **WarehouseInventory.java**
