@@ -1,4 +1,21 @@
-# STEP Semester 3 - Base Project Skeleton
+# Session 3: OOP Fundamentals, Classes, Objects & Constructors
 
-Base project skeleton for Step Semester 3 coursework.
-Individual session feature branches are created from this branch.
+Topic: `oop_basics`
+
+## 📂 Package Structure
+- `src/main/java/oop_basics/class_problems/`: In-class practice problems (5 programs)
+- `src/main/java/oop_basics/assigment_problems/`: Take-home assignment problems (5 programs)
+
+### Class Problems
+1. **Course.java**
+2. **IdCard.java**
+3. **MessWallet.java**
+4. **PlacementRecord.java**
+5. **StudentCollegeTracker.java**
+
+### Assignment Problems
+1. **BookInventory.java**
+2. **CompanyEmployeeTracker.java**
+3. **EmployeeProfile.java**
+4. **HallTicket.java**
+5. **PayrollAccount.java**
