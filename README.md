@@ -1,21 +1,95 @@
-# STEP - Semester 3 Coding Repository
+# STEP - Semester 3 Progress Log
 
-Comprehensive Java solutions for **B1P7-702** (*C2 - SRM Semester 3 - Classroom 100 CodIn Hours Practice*).
+Course: **B1P7-702** (*C2 - SRM Semester 3 - Classroom 100 CodIn Hours Practice*)  
+Repository: `Step_semester_3`
 
 ---
 
-## 📂 Weekly Directory Structure
+## Date: 19-09-2026
 
-Every week contains two dedicated subfolders:
-- `classwork/`: In-class practice problem solutions.
-- `homework/`: Take-home assignment problem solutions.
+**Today's Work:**
+- Completed Session 7 Abstraction & Interface practice problems (abstract base classes, interface contracts, polymorphism)
 
-| Folder | Topic | Classwork | Homework | Total |
-| :--- | :--- | :---: | :---: | :---: |
-| [`week-1/`](./week-1/) | Strings, Arrays & Fundamental Algorithms | 5 | 5 | 10 |
-| [`week-2/`](./week-2/) | String Methods, ASCII Conversion & Performance | 5 | 5 | 10 |
-| [`week-3/`](./week-3/) | OOP Fundamentals, Classes, Objects & Constructors | 5 | 5 | 10 |
-| [`week-4/`](./week-4/) | Constructors & Keywords (`this`, `final`, `static`, `instanceof`) | 5 | 5 | 10 |
-| [`week-5/`](./week-5/) | Access Modifiers, Encapsulation & Object Modeling | 5 | 5 | 10 |
-| [`week-6/`](./week-6/) | OOP Inheritance & Polymorphism | 5 | 5 | 10 |
-| [`week-7/`](./week-7/) | Abstraction & Interfaces | 5 | Pending | 5 |
+**Next Session Plan:**
+- Subsequent course modules and review
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 18-09-2026
+
+**Today's Work:**
+- Completed Session 6 OOP Inheritance & Polymorphism problems (multilevel inheritance, super calls, late fee calculation overrides)
+
+**Next Session Plan:**
+- Session 7 Abstraction & Interface practice
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 17-09-2026
+
+**Today's Work:**
+- Completed Session 5 Access Modifiers & Encapsulation problems (private fields, getter/setter validation, object modeling)
+
+**Next Session Plan:**
+- Session 6 Inheritance & Polymorphism
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 16-09-2026
+
+**Today's Work:**
+- Completed Session 4 Constructors & Keywords (`this`, `final`, `static`, `instanceof`)
+
+**Next Session Plan:**
+- Session 5 Encapsulation & Access Modifiers
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 15-09-2026
+
+**Today's Work:**
+- Completed Session 3 OOP Fundamentals, Classes, Objects & Constructors
+
+**Next Session Plan:**
+- Session 4 Constructors & Keywords
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 14-09-2026
+
+**Today's Work:**
+- Completed Session 2 String Methods, ASCII Conversion & Performance
+
+**Next Session Plan:**
+- Session 3 OOP Fundamentals
+
+**Issues Faced:**
+- None
+
+---
+
+## Date: 13-09-2026
+
+**Today's Work:**
+- Completed Session 1 Strings, Arrays & Fundamental Algorithms
+
+**Next Session Plan:**
+- Session 2 String Methods
+
+**Issues Faced:**
+- None
