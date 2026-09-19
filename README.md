@@ -1,21 +1,4 @@
-# STEP - Semester 3 Coding Repository
+# STEP Semester 3 - Base Project Skeleton
 
-Comprehensive Java solutions for **B1P7-702** (*C2 - SRM Semester 3 - Classroom 100 CodIn Hours Practice*).
-
----
-
-## 📂 Weekly Directory Structure
-
-Every week contains two dedicated subfolders:
-- `classwork/`: In-class practice problem solutions.
-- `homework/`: Take-home assignment problem solutions.
-
-| Folder | Topic | Classwork | Homework | Total |
-| :--- | :--- | :---: | :---: | :---: |
-| [`week-1/`](./week-1/) | Strings, Arrays & Fundamental Algorithms | 5 | 5 | 10 |
-| [`week-2/`](./week-2/) | String Methods, ASCII Conversion & Performance | 5 | 5 | 10 |
-| [`week-3/`](./week-3/) | OOP Fundamentals, Classes, Objects & Constructors | 5 | 5 | 10 |
-| [`week-4/`](./week-4/) | Constructors & Keywords (`this`, `final`, `static`, `instanceof`) | 5 | 5 | 10 |
-| [`week-5/`](./week-5/) | Access Modifiers, Encapsulation & Object Modeling | 5 | 5 | 10 |
-| [`week-6/`](./week-6/) | OOP Inheritance & Polymorphism | 5 | 5 | 10 |
-| [`week-7/`](./week-7/) | Abstraction & Interfaces | 5 | Pending | 5 |
+Base project skeleton for Step Semester 3 coursework.
+Individual session feature branches are created from this branch.
