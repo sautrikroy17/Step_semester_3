@@ -1,9 +1,37 @@
-# STEP - Semester 3 Progress Log
+# STEP - Semester 3 Repository
 
 Course: **B1P7-702** (*C2 - SRM Semester 3 - Classroom 100 CodIn Hours Practice*)  
 Repository: `Step_semester_3`
 
 ---
+
+## 📂 Weekly Directory Structure
+
+| Folder | Description | Classwork | Homework |
+| :--- | :--- | :--- | :--- |
+| [`week-1/`](./week-1/) | Strings, Arrays & Fundamental Algorithms | [Classwork](./week-1/classwork/) | [Homework](./week-1/homework/) |
+| [`week-2/`](./week-2/) | String Methods, ASCII Conversion & Performance | [Classwork](./week-2/classwork/) | [Homework](./week-2/homework/) |
+| [`week-3/`](./week-3/) | OOP Fundamentals, Classes, Objects & Constructors | [Classwork](./week-3/classwork/) | [Homework](./week-3/homework/) |
+| [`week-4/`](./week-4/) | Constructors & Keywords (`this`, `final`, `static`, `instanceof`) | [Classwork](./week-4/classwork/) | [Homework](./week-4/homework/) |
+| [`week-5/`](./week-5/) | Access Modifiers & Encapsulation | [Classwork](./week-5/classwork/) | [Homework](./week-5/homework/) |
+| [`week-6/`](./week-6/) | OOP Inheritance & Polymorphism | [Classwork](./week-6/classwork/) | [Homework](./week-6/homework/) |
+| [`week-7/`](./week-7/) | Abstraction & Interface Architecture | [Classwork](./week-7/classwork/) | [Homework](./week-7/homework/) |
+
+---
+
+## 🚀 Compiling and Running
+
+Each week folder contains standalone, self-contained Java source files organized into `classwork/` (in-class practice) and `homework/` (take-home assignments). To compile and run any solution:
+
+```bash
+cd week-X/classwork # or cd week-X/homework
+javac <ProgramName>.java
+java <ProgramName>
+```
+
+---
+
+## 📝 Daily Progress Log
 
 ## Date: 19-09-2026
 
