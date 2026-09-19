@@ -8,10 +8,11 @@ Repository: `Step_semester_3`
 ## Date: 19-09-2026
 
 **Today's Work:**
-- Completed Session 7 Abstraction & Interface practice problems (abstract base classes, interface contracts, polymorphism)
+- Completed Session 7 Abstraction & Interface practice problems (classwork: abstract base classes, interface contracts, polymorphism)
+- Completed Session 7 Abstraction & Interface Category B assignment problems (homework: Ringable interfaces, ArtPiece hierarchy, multilevel toolshed routines, Chargeable classroom devices, Trackable drone delivery fleet)
 
 **Next Session Plan:**
-- Subsequent course modules and review
+- Session 8 Object Class Methods, Inner Classes & UML Diagrams
 
 **Issues Faced:**
 - None
