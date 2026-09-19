@@ -18,7 +18,7 @@ Repository: `Step_semester_3`
 
 ---
 
-## Date: 18-09-2026
+## Date: 12-09-2026
 
 **Today's Work:**
 - Completed Session 6 OOP Inheritance & Polymorphism problems (multilevel inheritance, super calls, late fee calculation overrides)
@@ -31,7 +31,7 @@ Repository: `Step_semester_3`
 
 ---
 
-## Date: 17-09-2026
+## Date: 05-09-2026
 
 **Today's Work:**
 - Completed Session 5 Access Modifiers & Encapsulation problems (private fields, getter/setter validation, object modeling)
@@ -44,7 +44,7 @@ Repository: `Step_semester_3`
 
 ---
 
-## Date: 16-09-2026
+## Date: 29-08-2026
 
 **Today's Work:**
 - Completed Session 4 Constructors & Keywords (`this`, `final`, `static`, `instanceof`)
@@ -57,7 +57,7 @@ Repository: `Step_semester_3`
 
 ---
 
-## Date: 15-09-2026
+## Date: 22-08-2026
 
 **Today's Work:**
 - Completed Session 3 OOP Fundamentals, Classes, Objects & Constructors
@@ -70,7 +70,7 @@ Repository: `Step_semester_3`
 
 ---
 
-## Date: 14-09-2026
+## Date: 15-08-2026
 
 **Today's Work:**
 - Completed Session 2 String Methods, ASCII Conversion & Performance
@@ -83,7 +83,7 @@ Repository: `Step_semester_3`
 
 ---
 
-## Date: 13-09-2026
+## Date: 08-08-2026
 
 **Today's Work:**
 - Completed Session 1 Strings, Arrays & Fundamental Algorithms
