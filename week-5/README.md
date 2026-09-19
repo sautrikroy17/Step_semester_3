@@ -1,17 +1,21 @@
-# Week 5: Access Modifiers, Encapsulation & Object Modeling
+# Week 5: Access Modifiers & Encapsulation
 
-This branch contains solutions for Week 5 practice and homework assignments focusing on Java access modifiers (`private`, `default`, `protected`, `public`), encapsulation guards, JavaBean specifications, and immutable object patterns.
+This branch contains solutions for Week 5 practice and homework assignments.
 
-## Practice Problems (Category B)
-1. **MovieTicketAccessChecker.java**: Evaluates access visibility across class, package, and external boundaries.
-2. **SubclassTicketAccess.java**: Analyzes cross-package protected access distinctions between declared own-type and parent-type references.
-3. **CineScreen.java**: Enforces boundary validation on seat capacity and booking operations.
-4. **MovieBookingProfile.java**: Builds a JavaBean with standard accessors and a write-only OTP property.
-5. **BookingReceiptSettlement.java**: Implements immutable receipts with defensive copying, wither methods, and batch reconciliation.
+## 📂 Structure
+- `classwork/`: In-class practice problems (5 programs)
+- `homework/`: Take-home assignment problems (5 programs)
 
-## Homework Problems (Category B)
-6. **LibraryMemberAccessChecker.java**: Classifies access attempts with detailed per-modifier summary aggregations.
-7. **ReferenceDeskAccessChecker.java**: Performs early-exit scanning to locate and report the first denied access attempt.
-8. **BookInventoryCirculation.java**: Enforces non-negative check-outs and capacity-capped returns.
-9. **LibraryMemberProfile.java**: Implements a JavaBean featuring a write-once membership identifier and write-only security answer.
-10. **LoanReceiptCirculation.java**: Models immutable loan records with static ledger tracking and polymorphic settlement dispatch.
+### Classwork (Practice)
+1. **MovieTicketAccessChecker.java**: Classifies Java access level visibility.
+2. **SubclassTicketAccess.java**: Protected access across package boundaries.
+3. **CineScreen.java**: Bounded seat management and state validation.
+4. **MovieBookingProfile.java**: JavaBean with write-only OTP property.
+5. **BookingReceiptSettlement.java**: Immutable receipts with defensive copying and wither methods.
+
+### Homework (Assignment)
+1. **LibraryMemberAccessChecker.java**: Per-modifier summary aggregations.
+2. **ReferenceDeskAccessChecker.java**: Early-exit search for denied access attempts.
+3. **BookInventoryCirculation.java**: Boundary-safe library circulation operations.
+4. **LibraryMemberProfile.java**: JavaBean with write-once ID and write-only security answer.
+5. **LoanReceiptCirculation.java**: Immutable loan receipts and nightly ledger processing.

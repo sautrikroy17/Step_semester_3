@@ -1,17 +1,21 @@
-# Week 4: Programming Constructs & OOP Fundamentals
+# Week 4: Constructors & Java Keywords
 
-This branch contains solutions for Week 4 practice and homework assignments covering advanced constructor patterns and core Java keywords: `this()`, `this`, `final`, `static` blocks, and `instanceof`.
+This branch contains solutions for Week 4 practice and homework assignments.
 
-## Practice Problems (Category B)
-1. **LibraryBook.java**: Implements constructor chaining with `this()` to default pending ISBNs across a book batch.
-2. **EmployeeSalaryRaise.java**: Demonstrates field/parameter disambiguation using `this` during batch salary raises.
-3. **LateFeeAccount.java**: Enforces non-overridable fee formulas using `final` methods with conditional skip logic.
-4. **SrmStudentBatch.java**: Guarantees single-execution college metadata initialization via a `static` block.
-5. **AccountPaymentBatch.java**: Uses `instanceof` to dynamically inspect account subtypes and route fee disbursements.
+## 📂 Structure
+- `classwork/`: In-class practice problems (5 programs)
+- `homework/`: Take-home assignment problems (5 programs)
 
-## Homework Problems (Category B)
-6. **Participant.java**: Chains constructors to handle solo vs team hackathon registrations seamlessly.
-7. **CanteenItem.java**: Applies the `this` reference to resolve name clashes during Friday stock replenishments.
-8. **ParkingTicket.java**: Employs `final` receipt printing and overstay fine evaluations with skip conditions.
-9. **MembershipCard.java**: Validates one-time library system configuration using a static initialization block.
-10. **CanteenPaymentDispatch.java**: Inspects polymorphically referenced payments via `instanceof` to calculate card processing surcharges.
+### Classwork (Practice)
+1. **LibraryBook.java**: Constructor chaining with `this()`.
+2. **EmployeeSalaryRaise.java**: Field/parameter disambiguation with `this`.
+3. **LateFeeAccount.java**: Final methods and skip logic.
+4. **SrmStudentBatch.java**: Single-fire static block initialization.
+5. **AccountPaymentBatch.java**: Dynamic dispatch via `instanceof`.
+
+### Homework (Assignment)
+1. **Participant.java**: Solo vs. team constructor overloading.
+2. **CanteenItem.java**: Using `this` for batch stock updates.
+3. **ParkingTicket.java**: Final method fine receipt generation.
+4. **MembershipCard.java**: Library card static setup block.
+5. **CanteenPaymentDispatch.java**: Payment surcharge evaluation using `instanceof`.

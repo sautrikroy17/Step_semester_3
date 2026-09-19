@@ -1,17 +1,21 @@
 # Week 6: OOP Inheritance & Polymorphism
 
-This branch contains solutions for Week 6 practice and homework assignments covering single, multilevel, and hierarchical inheritance, method overriding, `super`, polymorphism, dynamic dispatch, `instanceof`, defensive copying, and overloaded methods.
+This branch contains solutions for Week 6 practice and homework assignments.
 
-## Practice Problems (Category B)
-1. **LibraryEnrollment.java**: Validates member IDs in base constructor and processes batch enrollments with exception handling.
-2. **LibraryHierarchy.java**: Implements multilevel (`HonorsStudentMember`) and hierarchical (`FacultyMember`) inheritance trees with dynamic dispatch.
-3. **StudentFineLedger.java**: Overrides fine charging with student discounts and protects history using defensive copying.
-4. **WeeklyCirculationReport.java**: Compiles polymorphic summary strings using `StringBuilder` and safe downcasting with `instanceof`.
-5. **LibraryCirculationAudit.java**: Combines auto-incremented final member numbers, renewal code validation, and batch settlement.
+## 📂 Structure
+- `classwork/`: In-class practice problems (5 programs)
+- `homework/`: Take-home assignment problems (5 programs)
 
-## Homework Problems (Category B)
-6. **GymSignUpValidator.java**: Enforces ID length constraints in base constructor and tallies batch sign-up success rates.
-7. **GymMembershipTiers.java**: Demonstrates tiered gym memberships with generation classification and polymorphic session totals.
-8. **GymLateFeeLedger.java**: Halves late fees via `super.chargeLateFee` and maintains private history with defensive copying.
-9. **AttendanceAnnouncer.java**: Constructs monthly announcements using `StringBuilder` and downcasting for trainer access.
-10. **GymCheckInSettlement.java**: Validates referral code formatting, handles overloaded fee payments, and performs batch check-in audits.
+### Classwork (Practice)
+1. **LibraryEnrollment.java**: Base constructor validation and batch enrollment.
+2. **LibraryHierarchy.java**: Multilevel and hierarchical inheritance trees.
+3. **StudentFineLedger.java**: Late-fee halving override and defensive copy history.
+4. **WeeklyCirculationReport.java**: Polymorphic batch reporting with `StringBuilder`.
+5. **LibraryCirculationAudit.java**: Static counters, renewal code checks, and audit dispatch.
+
+### Homework (Assignment)
+1. **GymSignUpValidator.java**: Member ID validation and batch sign-up counter.
+2. **GymMembershipTiers.java**: Tiered gym memberships with polymorphic session counts.
+3. **GymLateFeeLedger.java**: Late fee discount override and defensive copying.
+4. **AttendanceAnnouncer.java**: Batch printing with safe downcasting for trainers.
+5. **GymCheckInSettlement.java**: Referral code format verification and weekly check-in audits.
