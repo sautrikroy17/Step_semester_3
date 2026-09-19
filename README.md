@@ -19,18 +19,3 @@ Every week contains two dedicated subfolders:
 | [`week-5/`](./week-5/) | Access Modifiers, Encapsulation & Object Modeling | 5 | 5 | 10 |
 | [`week-6/`](./week-6/) | OOP Inheritance & Polymorphism | 5 | 5 | 10 |
 | [`week-7/`](./week-7/) | Abstraction & Interfaces | 5 | Pending | 5 |
-
----
-
-## 🚀 Compiling and Running
-Each week folder contains standalone, self-contained Java source files in `classwork/` and `homework/`. To compile and run any solution:
-
-```bash
-# Example: Running a classwork program from week 1
-javac week-1/classwork/BMICalculator.java
-java -cp week-1/classwork BMICalculator
-
-# Example: Running a homework program from week 1
-javac week-1/homework/WarehouseInventory.java
-java -cp week-1/homework WarehouseInventory
-```
