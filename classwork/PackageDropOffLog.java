@@ -1,5 +1,3 @@
-package abstraction.class_problems;
-
 abstract class DeliveryNote {
     protected String trackingId;
 

@@ -1,5 +1,3 @@
-package abstraction.class_problems;
-
 interface Washable {
     String clean();
 }

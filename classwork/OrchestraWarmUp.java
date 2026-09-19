@@ -1,5 +1,3 @@
-package abstraction.class_problems;
-
 abstract class Instrument {
     public abstract String play();
 }

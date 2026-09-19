@@ -1,5 +1,3 @@
-package abstraction.class_problems;
-
 abstract class Toy {
     private static int counter = 1000;
     final String toyId;
