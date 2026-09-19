@@ -1,10 +1,28 @@
-# Week 7: Abstraction and Interfaces
+# STEP - Semester 3 Coding Repository
 
-This branch contains solutions for Week 7 practice problems covering abstract classes, interface contracts, multilevel abstraction hierarchies, validated property mutators, and compile-time vs runtime polymorphism.
+Comprehensive Java solutions for **B1P7-702** (*C2 - SRM Semester 3 - Classroom 100 CodIn Hours Practice*).
 
-## Practice Problems (Category B)
-1. **TalkingToyBox.java**: Implements an abstract `Toy` class with static ID numbering and concrete child sound implementations.
-2. **WarehouseLabelPrinter.java**: Defines the `Printable` interface applied across disparate package boxes and invoice domains.
-3. **OrchestraWarmUp.java**: Chains multilevel instrument play routines using `super.play()` extensions.
-4. **SmartKitchenAssistant.java**: Combines abstract base class logic, validated JavaBean property bounds, and the `Washable` interface.
-5. **PackageDropOffLog.java**: Demonstrates overloaded delivery confirmation methods combined with polymorphic array logging.
+---
+
+## 📂 Weekly Directory Structure
+
+| Folder | Topic | Programs |
+| :--- | :--- | :---: |
+| [`week-1/`](./week-1/) | Strings, Arrays & Fundamental Algorithms | 10 |
+| [`week-2/`](./week-2/) | String Methods, ASCII Conversion & Performance | 10 |
+| [`week-3/`](./week-3/) | OOP Fundamentals, Classes, Objects & Constructors | 10 |
+| [`week-4/`](./week-4/) | Constructors & Keywords (`this`, `final`, `static`, `instanceof`) | 10 |
+| [`week-5/`](./week-5/) | Access Modifiers, Encapsulation & Object Modeling | 10 |
+| [`week-6/`](./week-6/) | OOP Inheritance & Polymorphism | 10 |
+| [`week-7/`](./week-7/) | Abstraction & Interfaces | 5 |
+
+---
+
+## 🚀 Compiling and Running
+Each week folder contains standalone, self-contained Java source files. To compile and run any solution:
+
+```bash
+cd week-X
+javac <ProgramName>.java
+java <ProgramName>
+```
