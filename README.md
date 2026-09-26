@@ -20,18 +20,6 @@ Repository: `Step_semester_3`
 
 ---
 
-## 🚀 Compiling and Running
-
-Each week folder contains standalone, self-contained Java source files organized into `classwork/` (in-class practice) and `homework/` (take-home assignments). To compile and run any solution:
-
-```bash
-cd week-X/classwork # or cd week-X/homework
-javac <ProgramName>.java
-java <ProgramName>
-```
-
----
-
 ## 📝 Daily Progress Log
 
 ## Date: 26-09-2026
