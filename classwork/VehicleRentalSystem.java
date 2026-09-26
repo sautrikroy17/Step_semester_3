@@ -67,11 +67,11 @@ class Truck extends Vehicle {
     }
 }
 
-class Customer {
+class RentalCustomer {
     private String customerId;
     private String name;
 
-    public Customer(String customerId, String name) {
+    public RentalCustomer(String customerId, String name) {
         this.customerId = customerId;
         this.name = name;
     }
@@ -86,19 +86,19 @@ class Customer {
 }
 
 class Rental {
-    private Customer customer;
+    private RentalCustomer customer;
     private Vehicle vehicle;
     private int days;
     private double charge;
 
-    public Rental(Customer customer, Vehicle vehicle, int days) {
+    public Rental(RentalCustomer customer, Vehicle vehicle, int days) {
         this.customer = customer;
         this.vehicle = vehicle;
         this.days = days;
         this.charge = vehicle.calculateRentalCharge(days);
     }
 
-    public Customer getCustomer() {
+    public RentalCustomer getCustomer() {
         return customer;
     }
 
@@ -116,7 +116,7 @@ class Rental {
 }
 
 class RentalService {
-    public Rental rentVehicle(Customer customer, Vehicle vehicle, int days) {
+    public Rental rentVehicle(RentalCustomer customer, Vehicle vehicle, int days) {
         if (vehicle.isRented()) {
             System.out.println(vehicle.getModel() + " is currently unavailable.");
             return null;
@@ -127,7 +127,7 @@ class RentalService {
         return rental;
     }
 
-    public void returnVehicle(Vehicle vehicle, Customer customer) {
+    public void returnVehicle(Vehicle vehicle, RentalCustomer customer) {
         vehicle.setRented(false);
         System.out.println(vehicle.getModel() + " returned by " + customer.getName() + ".");
     }
@@ -139,9 +139,9 @@ public class VehicleRentalSystem {
         Vehicle sedanA = new Sedan("V101", "Sedan A");
         Vehicle suvB = new SUV("V102", "SUV B");
 
-        Customer customer1 = new Customer("C1", "Customer 1");
-        Customer customer2 = new Customer("C2", "Customer 2");
-        Customer customer3 = new Customer("C3", "Customer 3");
+        RentalCustomer customer1 = new RentalCustomer("C1", "Customer 1");
+        RentalCustomer customer2 = new RentalCustomer("C2", "Customer 2");
+        RentalCustomer customer3 = new RentalCustomer("C3", "Customer 3");
 
         service.rentVehicle(customer1, sedanA, 3);
         service.rentVehicle(customer2, sedanA, 2);

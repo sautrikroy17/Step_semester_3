@@ -60,11 +60,11 @@ class Suite extends Room {
     }
 }
 
-class Customer {
+class HotelCustomer {
     private String customerId;
     private String name;
 
-    public Customer(String customerId, String name) {
+    public HotelCustomer(String customerId, String name) {
         this.customerId = customerId;
         this.name = name;
     }
@@ -80,7 +80,7 @@ class Customer {
 
 class Reservation {
     private String reservationId;
-    private Customer customer;
+    private HotelCustomer customer;
     private Room room;
     private String dateRange;
     private int startDay;
@@ -88,7 +88,7 @@ class Reservation {
     private double price;
     private boolean active;
 
-    public Reservation(String reservationId, Customer customer, Room room, String dateRange, int startDay, int endDay) {
+    public Reservation(String reservationId, HotelCustomer customer, Room room, String dateRange, int startDay, int endDay) {
         this.reservationId = reservationId;
         this.customer = customer;
         this.room = room;
@@ -103,7 +103,7 @@ class Reservation {
         return reservationId;
     }
 
-    public Customer getCustomer() {
+    public HotelCustomer getCustomer() {
         return customer;
     }
 
@@ -167,7 +167,7 @@ class HotelBookingService {
         }
     }
 
-    public Reservation reserveRoom(Customer customer, Room room, String dateRange, int startDay, int endDay) {
+    public Reservation reserveRoom(HotelCustomer customer, Room room, String dateRange, int startDay, int endDay) {
         if (!isAvailable(room, startDay, endDay)) {
             System.out.println(room.getRoomType() + " " + room.getRoomNumber() + " is not available from " + dateRange + ".");
             return null;
@@ -193,9 +193,9 @@ public class HotelBookingSystem {
         Room standard101 = new StandardRoom("101");
         Room deluxe201 = new DeluxeRoom("201");
 
-        Customer custA = new Customer("C1", "Customer A");
-        Customer custB = new Customer("C2", "Customer B");
-        Customer custC = new Customer("C3", "Customer C");
+        HotelCustomer custA = new HotelCustomer("C1", "Customer A");
+        HotelCustomer custB = new HotelCustomer("C2", "Customer B");
+        HotelCustomer custC = new HotelCustomer("C3", "Customer C");
 
         service.checkAvailability(standard101, "Jan 1 to Jan 5", 1, 5);
         Reservation resA = service.reserveRoom(custA, standard101, "Jan 1-5", 1, 5);

@@ -111,11 +111,11 @@ class BankTransferPayment implements PaymentMethod {
     }
 }
 
-class Customer {
+class ShoppingCustomer {
     private String id;
     private String name;
 
-    public Customer(String id, String name) {
+    public ShoppingCustomer(String id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -131,11 +131,11 @@ class Customer {
 
 class Order {
     private String orderId;
-    private Customer customer;
+    private ShoppingCustomer customer;
     private List<OrderItem> items;
     private OrderStatus status;
 
-    public Order(String orderId, Customer customer) {
+    public Order(String orderId, ShoppingCustomer customer) {
         this.orderId = orderId;
         this.customer = customer;
         this.items = new ArrayList<>();
@@ -151,7 +151,7 @@ class Order {
         return orderId;
     }
 
-    public Customer getCustomer() {
+    public ShoppingCustomer getCustomer() {
         return customer;
     }
 
@@ -196,9 +196,9 @@ public class PaymentProcessingSystem {
         Product prodB = new Product("P2", "Product B", 30.0);
         Product prodC = new Product("P3", "Product C", 40.0);
 
-        Customer custX = new Customer("C1", "Customer X");
-        Customer custY = new Customer("C2", "Customer Y");
-        Customer custZ = new Customer("C3", "Customer Z");
+        ShoppingCustomer custX = new ShoppingCustomer("C1", "Customer X");
+        ShoppingCustomer custY = new ShoppingCustomer("C2", "Customer Y");
+        ShoppingCustomer custZ = new ShoppingCustomer("C3", "Customer Z");
 
         Order orderX = new Order("Order X", custX);
         orderX.addProduct(prodA, 2);

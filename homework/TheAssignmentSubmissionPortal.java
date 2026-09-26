@@ -46,11 +46,11 @@ class WrittenAssignment extends Assignment {
     }
 }
 
-class Student {
+class PortalStudent {
     private String id;
     private String name;
 
-    public Student(String id, String name) {
+    public PortalStudent(String id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -70,13 +70,13 @@ enum SubmissionStatus {
 }
 
 class Submission {
-    private Student student;
+    private PortalStudent student;
     private Assignment assignment;
     private int submissionDay;
     private SubmissionStatus status;
     private int finalMarks;
 
-    public Submission(Student student, Assignment assignment, int submissionDay) {
+    public Submission(PortalStudent student, Assignment assignment, int submissionDay) {
         this.student = student;
         this.assignment = assignment;
         this.submissionDay = submissionDay;
@@ -89,7 +89,7 @@ class Submission {
         }
     }
 
-    public Student getStudent() {
+    public PortalStudent getStudent() {
         return student;
     }
 
@@ -133,8 +133,8 @@ public class TheAssignmentSubmissionPortal {
         Assignment coding = new CodingAssignment("Linked List Lab", 50, 10);
         Assignment written = new WrittenAssignment("Design Essay", 50, 12);
 
-        Student asha = new Student("S1", "Asha");
-        Student ravi = new Student("S2", "Ravi");
+        PortalStudent asha = new PortalStudent("S1", "Asha");
+        PortalStudent ravi = new PortalStudent("S2", "Ravi");
 
         Submission subAsha = new Submission(asha, coding, 10);
         Submission subRavi = new Submission(ravi, written, 14);

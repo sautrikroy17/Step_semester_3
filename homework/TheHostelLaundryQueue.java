@@ -40,11 +40,11 @@ class HeavyWash extends WashType {
     }
 }
 
-class Student {
+class HostelStudent {
     private String id;
     private String name;
 
-    public Student(String id, String name) {
+    public HostelStudent(String id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -77,7 +77,7 @@ class WashingMachine {
         return busy;
     }
 
-    public boolean startWash(Student student, WashType washType) {
+    public boolean startWash(HostelStudent student, WashType washType) {
         if (busy) {
             System.out.println("Machine " + machineId + " is currently busy.");
             return false;
@@ -101,17 +101,17 @@ class WashingMachine {
 }
 
 class WashCycle {
-    private Student student;
+    private HostelStudent student;
     private WashingMachine machine;
     private WashType washType;
 
-    public WashCycle(Student student, WashingMachine machine, WashType washType) {
+    public WashCycle(HostelStudent student, WashingMachine machine, WashType washType) {
         this.student = student;
         this.machine = machine;
         this.washType = washType;
     }
 
-    public Student getStudent() {
+    public HostelStudent getStudent() {
         return student;
     }
 
@@ -129,9 +129,9 @@ public class TheHostelLaundryQueue {
         WashingMachine m1 = new WashingMachine("M1");
         WashingMachine m2 = new WashingMachine("M2");
 
-        Student asha = new Student("S1", "Asha");
-        Student ravi = new Student("S2", "Ravi");
-        Student neha = new Student("S3", "Neha");
+        HostelStudent asha = new HostelStudent("S1", "Asha");
+        HostelStudent ravi = new HostelStudent("S2", "Ravi");
+        HostelStudent neha = new HostelStudent("S3", "Neha");
 
         WashType quick = new QuickWash();
         WashType normal = new NormalWash();

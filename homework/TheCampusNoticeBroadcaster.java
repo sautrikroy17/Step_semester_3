@@ -4,7 +4,7 @@ import java.util.List;
 
 interface NotificationChannel {
     String getChannelName();
-    void send(Student student, Notice notice);
+    void send(NoticeStudent student, Notice notice);
 }
 
 class EmailChannel implements NotificationChannel {
@@ -14,7 +14,7 @@ class EmailChannel implements NotificationChannel {
     }
 
     @Override
-    public void send(Student student, Notice notice) {
+    public void send(NoticeStudent student, Notice notice) {
         System.out.println("[Email → " + student.getName() + "] " + notice.getTitle());
     }
 }
@@ -26,7 +26,7 @@ class SmsChannel implements NotificationChannel {
     }
 
     @Override
-    public void send(Student student, Notice notice) {
+    public void send(NoticeStudent student, Notice notice) {
         System.out.println("[SMS → " + student.getName() + "] " + notice.getTitle());
     }
 }
@@ -38,18 +38,18 @@ class AppChannel implements NotificationChannel {
     }
 
     @Override
-    public void send(Student student, Notice notice) {
+    public void send(NoticeStudent student, Notice notice) {
         System.out.println("[App → " + student.getName() + "] " + notice.getTitle());
     }
 }
 
-class Student {
+class NoticeStudent {
     private String id;
     private String name;
     private String department;
     private List<NotificationChannel> preferredChannels;
 
-    public Student(String id, String name, String department) {
+    public NoticeStudent(String id, String name, String department) {
         this.id = id;
         this.name = name;
         this.department = department;
@@ -100,13 +100,13 @@ class Notice {
 }
 
 class NoticeBoard {
-    private List<Student> students;
+    private List<NoticeStudent> students;
 
     public NoticeBoard() {
         this.students = new ArrayList<>();
     }
 
-    public void registerStudent(Student student) {
+    public void registerStudent(NoticeStudent student) {
         students.add(student);
     }
 
@@ -123,7 +123,7 @@ class NoticeBoard {
         String deptList = String.join(", ", notice.getTargetDepartments());
         System.out.println("Notice '" + notice.getTitle() + "' posted to " + deptList + ".");
 
-        for (Student student : students) {
+        for (NoticeStudent student : students) {
             if (notice.getTargetDepartments().contains(student.getDepartment())) {
                 for (NotificationChannel channel : student.getPreferredChannels()) {
                     channel.send(student, notice);
@@ -140,11 +140,11 @@ public class TheCampusNoticeBroadcaster {
         NotificationChannel sms = new SmsChannel();
         NotificationChannel app = new AppChannel();
 
-        Student asha = new Student("S1", "Asha", "CSE");
+        NoticeStudent asha = new NoticeStudent("S1", "Asha", "CSE");
         asha.addPreferredChannel(email);
         asha.addPreferredChannel(app);
 
-        Student ravi = new Student("S2", "Ravi", "ECE");
+        NoticeStudent ravi = new NoticeStudent("S2", "Ravi", "ECE");
         ravi.addPreferredChannel(sms);
 
         NoticeBoard noticeBoard = new NoticeBoard();
