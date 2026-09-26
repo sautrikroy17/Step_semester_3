@@ -16,6 +16,7 @@ Repository: `Step_semester_3`
 | [`week-5/`](./week-5/) | Access Modifiers & Encapsulation | [Classwork](./week-5/classwork/) | [Homework](./week-5/homework/) |
 | [`week-6/`](./week-6/) | OOP Inheritance & Polymorphism | [Classwork](./week-6/classwork/) | [Homework](./week-6/homework/) |
 | [`week-7/`](./week-7/) | Abstraction & Interface Architecture | [Classwork](./week-7/classwork/) | [Homework](./week-7/homework/) |
+| [`week-8/`](./week-8/) | Object Class Methods, Inner Classes & UML Diagrams | [Classwork](./week-8/classwork/) | [Homework](./week-8/homework/) |
 
 ---
 
@@ -32,6 +33,20 @@ java <ProgramName>
 ---
 
 ## 📝 Daily Progress Log
+
+## Date: 26-09-2026
+
+**Today's Work:**
+- Completed Session 8 Object Class Methods, Inner Classes & UML Diagrams practice problems (classwork: VehicleRentalSystem, EmployeeLeaveRequestWorkflow, OnlineExaminationSystem, HotelBookingSystem, PaymentProcessingSystem)
+- Completed Session 8 Object Class Methods, Inner Classes & UML Diagrams Category B assignment problems (homework: TheHostelLaundryQueue, TheAssignmentSubmissionPortal, TheCampusPremiereTicketCounter, TheFitZoneMembershipDesk, TheCampusNoticeBroadcaster)
+
+**Next Session Plan:**
+- Session 9 Introduction to Data Structures & Collections
+
+**Issues Faced:**
+- None
+
+---
 
 ## Date: 19-09-2026
 
