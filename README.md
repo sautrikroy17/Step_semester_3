@@ -17,10 +17,25 @@ Repository: `Step_semester_3`
 | [`week-6/`](./week-6/) | OOP Inheritance & Polymorphism | [Classwork](./week-6/classwork/) | [Homework](./week-6/homework/) |
 | [`week-7/`](./week-7/) | Abstraction & Interface Architecture | [Classwork](./week-7/classwork/) | [Homework](./week-7/homework/) |
 | [`week-8/`](./week-8/) | Object Class Methods, Inner Classes & UML Diagrams | [Classwork](./week-8/classwork/) | [Homework](./week-8/homework/) |
+| [`week-9/`](./week-9/) | Introduction to Data Structures & Searching Algorithms | [Classwork](./week-9/classwork/) | [Homework](./week-9/homework/) |
 
 ---
 
 ## 📝 Daily Progress Log
+
+## Date: 03-10-2026
+
+**Today's Work:**
+- Completed Session 9 Introduction to Data Structures & Searching Algorithms practice problems (classwork: LibraryCatalogLookup, WarehouseGridSummary, PairWithTargetSum, PairWithTargetSumUnsorted, MaximizeAreaBetweenBoundaries)
+- Completed Session 9 Introduction to Data Structures & Searching Algorithms Category B assignment problems (homework: ClassTopperFinder, MergingTwoTokenQueues, MostPopularCanteenOrder, HotWeatherAlertWindows, TicketPriceSlotFinder)
+
+**Next Session Plan:**
+- Session 10 Sorting Algorithms, Stack & Queue Applications
+
+**Issues Faced:**
+- None
+
+---
 
 ## Date: 26-09-2026
 
