@@ -18,10 +18,25 @@ Repository: `Step_semester_3`
 | [`week-7/`](./week-7/) | Abstraction & Interface Architecture | [Classwork](./week-7/classwork/) | [Homework](./week-7/homework/) |
 | [`week-8/`](./week-8/) | Object Class Methods, Inner Classes & UML Diagrams | [Classwork](./week-8/classwork/) | [Homework](./week-8/homework/) |
 | [`week-9/`](./week-9/) | Introduction to Data Structures & Searching Algorithms | [Classwork](./week-9/classwork/) | [Homework](./week-9/homework/) |
+| [`week-10/`](./week-10/) | Linked Lists & Object-Oriented Modeling | [Classwork](./week-10/classwork/) | [Homework](./week-10/homework/) |
 
 ---
 
 ## 📝 Daily Progress Log
+
+## Date: 10-10-2026
+
+**Today's Work:**
+- Completed Session 10 Linked Lists & Object-Oriented Modeling practice problems (classwork: BankAccountWithdrawalSystem, CampusVehiclePassSystem, StudentClubRegistrationManagement, ClassMarksGridAnalysis, PayrollRegisterSystem)
+- Completed Session 10 Linked Lists & Object-Oriented Modeling Category B assignment problems (homework: PriorityTokenInsertion, CancelledOrdersCleanup, ReverseTheQueue, TrainCoachesBothWays, RoundRobinGameTurns)
+
+**Next Session Plan:**
+- Session 11 Advanced Data Structures & Algorithmic Applications
+
+**Issues Faced:**
+- None
+
+---
 
 ## Date: 03-10-2026
 
